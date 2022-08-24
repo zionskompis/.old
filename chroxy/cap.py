@@ -14,7 +14,7 @@ def newProxy():
 
 def chromi(proxy,cv):
     stype=proxy[1]
-    chrun=str(cv)+' --temp-profile --proxy-server="https='+stype.lower()+'://'+proxy[0]+';http='+stype.lower()+'://'+proxy[0]+'" https://remus.garaget.org/www/delivery/ck.php?oaparams=2__bannerid=2618__zoneid=23__cb=1d9f93736d__oadest=https://cleanip.xyz/webproxy/php-proxy/?utm_source=garaget.org&utm_medium=banner&utm_campaign=litenbanner'
+    chrun=str(cv)+' --temp-profile --proxy-server="https='+stype.lower()+'://'+proxy[0]+';http='+stype.lower()+'://'+proxy[0]+'" https://example.com/'
     args = shlex.split(chrun)
     ret=0
     try:
